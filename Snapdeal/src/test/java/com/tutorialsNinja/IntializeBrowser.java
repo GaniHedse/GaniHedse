@@ -11,6 +11,12 @@ public class IntializeBrowser {
 	public void LaunchBrowser()
 	{
 		driver=new ChromeDriver();
+		driver.get("");
+		driver.manage().window().maximize();
+		
+		
+		
+		
 		
 	}
 
