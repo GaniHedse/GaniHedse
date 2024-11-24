@@ -11,11 +11,12 @@ public class IntializeBrowser {
 	public void LaunchBrowser()
 	{
 		driver=new ChromeDriver();
+
+		driver.get("URL");
+		driver.manage().window().maximize();
+
 		System.out.println("Trying To deal the conflic1t");
-		System.out.println("Trying To deal the conflict2");
-		System.out.println("Trying To deal the conflict3");
-		System.out.println("Trying To deal the conflict4");
-		System.out.println("Trying To deal the conflict5");
+
 		
 	}
 
