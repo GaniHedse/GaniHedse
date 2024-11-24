@@ -27,6 +27,8 @@ public class VerifyingLogo extends BaseTest{
 		home=new HomePage(driver);
 		AssertTrue(home.VerifyingLogo());
 		log.info("Actual Result for Logo presence is----->"+home.VerifyingLogo());
+		
+		System.out.println("------");
 	}
 
 	@AfterMethod
