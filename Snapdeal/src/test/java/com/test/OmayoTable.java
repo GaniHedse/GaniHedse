@@ -1,6 +1,7 @@
 package com.test;
 
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.poi.sl.usermodel.Sheet;
@@ -19,6 +20,7 @@ import org.testng.annotations.Test;
 
 import com.tutorialsNinja.BaseTest;
 
+@Test
 public class OmayoTable {
 	public static WebDriver driver=null;
 	@BeforeMethod
@@ -30,7 +32,6 @@ public class OmayoTable {
 	}
 	
 	
-	@Test
 	public void Table()
 	{
 		List<WebElement> Rows = driver.findElements(By.xpath("//table[@id='table1']//tbody//tr"));
@@ -51,7 +52,6 @@ public class OmayoTable {
 	}
 	
 	
-	@Test
 	public void ReadExcel()
 	{
 		try
@@ -90,6 +90,107 @@ public class OmayoTable {
 		{
 			e.printStackTrace();
 		}
+		
+	}
+	@Test
+	public void BooksTable()
+	{
+		try
+		{
+			String filePath="C:\\bookexcel\\bookTable1.xlsx";
+			FileInputStream fin=new FileInputStream(filePath);
+			XSSFWorkbook workbook=new XSSFWorkbook(fin);
+			XSSFSheet sheet = workbook.getSheetAt(0);
+			int rowcount=sheet.getPhysicalNumberOfRows();
+			for(int i=0;i<=rowcount;i++)
+			{
+				if(sheet.getRow(i).getCell(0).getStringCellValue().equalsIgnoreCase("ReportSubmission"))
+				{
+					int cellcount = sheet.getRow(i+1).getPhysicalNumberOfCells();
+					for(int j=1;j<=cellcount;j++)
+					{
+						String value = sheet.getRow(i+2).getCell(j).getStringCellValue();
+						System.out.print(value+" ");
+					}
+				}
+			}
+			
+			workbook.close();
+			
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+	public void book()
+	{
+		try {
+		    String filePath = "C:\\bookexcel\\bookTable1.xlsx";
+		    FileInputStream fin = new FileInputStream(filePath);
+		    XSSFWorkbook workbook = new XSSFWorkbook(fin);
+		    XSSFSheet sheet = workbook.getSheetAt(0);
+		    int rowcount = sheet.getPhysicalNumberOfRows();
+
+		    for (int i = 1; i < rowcount; i++) { // Adjusted to "< rowcount" to prevent going out of bounds
+		        Row currentRow = sheet.getRow(i);
+		        if (currentRow != null) {
+		            Cell cell = currentRow.getCell(0);
+		            if (cell != null && cell.getCellType() == CellType.STRING 
+		                && cell.getStringCellValue().equalsIgnoreCase("ReportSubmission")) {
+
+		                Row nextRow = sheet.getRow(i + 1); // Check for the next row
+		                if (nextRow != null) {
+		                    int cellcount = nextRow.getPhysicalNumberOfCells();
+		                    Row targetRow = sheet.getRow(i + 2); // Check for the row i+2
+		                    if (targetRow != null) {
+		                        for (int j = 1; j < cellcount; j++) { // Adjusted to "< cellcount"
+		                            Cell targetCell = targetRow.getCell(j);
+		                            if (targetCell != null && targetCell.getCellType() == CellType.STRING) {
+		                                String value = targetCell.getStringCellValue();
+		                                System.out.print(value + " ");
+		                            } else {
+		                                System.out.print("Empty/Invalid Cell ");
+		                            }
+		                        }
+		                    } else {
+		                        System.out.println("Row " + (i + 2) + " is missing!");
+		                    }
+		                } else {
+		                    System.out.println("Row " + (i + 1) + " is missing!");
+		                }
+		            }
+		        } else {
+		            System.out.println("Row " + i + " is missing!");
+		        }
+		    }
+
+		    workbook.close();
+		    fin.close();
+
+		} catch (Exception e) {
+		    e.printStackTrace();
+		}
+
+	}
+	@Test
+	public void TableData() throws IOException
+	{
+		String filePath="C:\\bookexcel\\bookTable1.xlsx";
+		FileInputStream fin=new FileInputStream(filePath);
+		XSSFWorkbook workbook=new XSSFWorkbook(fin);
+		XSSFSheet sheet=workbook.getSheetAt(0);
+		for(Row row:sheet)
+		{
+			for(Cell cell:row)
+			{
+				System.out.print(cell.getStringCellValue()+" ");
+			}System.out.println();
+		}
+		
+		
 		
 	}
 	
