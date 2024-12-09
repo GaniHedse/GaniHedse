@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ZAP report saved: C:\project_perf\SecurityTesting\zap-reports\SearchPublish-zap-report.html]]>
+    </line>
+    <line>
+      <![CDATA[ZAP report attached to Extent Report: C:\project_perf\SecurityTesting\zap-reports\SearchPublish-zap-report.html]]>
+    </line>
+    <line>
+      <![CDATA[ZAP report saved: C:\project_perf\SecurityTesting\zap-reports\Sort-zap-report.html]]>
+    </line>
+    <line>
+      <![CDATA[ZAP report attached to Extent Report: C:\project_perf\SecurityTesting\zap-reports\Sort-zap-report.html]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-12-09T21:40:19 IST" name="Suite" finished-at="2024-12-09T21:41:43 IST" duration-ms="84063">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T21:40:19 IST" name="Test" finished-at="2024-12-09T21:41:43 IST" duration-ms="84063">
+      <class name="com.operative.test.Products.DummyProduct">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.operative.test.Products.DummyProduct@53bd8fca]" started-at="2024-12-09T21:40:19 IST" name="Setup" finished-at="2024-12-09T21:41:27 IST" duration-ms="68328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchPublish()[pri:1, instance:com.operative.test.Products.DummyProduct@53bd8fca]" started-at="2024-12-09T21:41:27 IST" name="SearchPublish" finished-at="2024-12-09T21:41:33 IST" duration-ms="5504" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ZAP report saved: C:\project_perf\SecurityTesting\zap-reports\SearchPublish-zap-report.html]]>
+            </line>
+            <line>
+              <![CDATA[ZAP report attached to Extent Report: C:\project_perf\SecurityTesting\zap-reports\SearchPublish-zap-report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchPublish -->
+        <test-method signature="Sort()[pri:2, instance:com.operative.test.Products.DummyProduct@53bd8fca]" started-at="2024-12-09T21:41:33 IST" name="Sort" finished-at="2024-12-09T21:41:39 IST" duration-ms="5286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ZAP report saved: C:\project_perf\SecurityTesting\zap-reports\Sort-zap-report.html]]>
+            </line>
+            <line>
+              <![CDATA[ZAP report attached to Extent Report: C:\project_perf\SecurityTesting\zap-reports\Sort-zap-report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sort -->
+        <test-method is-config="true" signature="tearup()[pri:0, instance:com.operative.test.Products.DummyProduct@53bd8fca]" started-at="2024-12-09T21:41:39 IST" name="tearup" finished-at="2024-12-09T21:41:43 IST" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearup -->
+      </class> <!-- com.operative.test.Products.DummyProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

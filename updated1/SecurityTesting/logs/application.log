@@ -1,0 +1,88 @@
+2024-12-09 16:12:37 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 16:13:39 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 16:13:47 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 16:13:47 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: zap-consolidated-report.html
+2024-12-09 16:48:28 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 16:49:29 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 16:49:58 [TestNG-test=Test-1] INFO  com.operative.utils.Log - Clicked on Template
+2024-12-09 16:49:58 [TestNG-test=Test-1] INFO  com.operative.utils.Log - Clicked on Local Linear
+2024-12-09 16:50:02 [TestNG-test=Test-1] INFO  com.operative.utils.Log - Clicked on Product Status Dropdown
+2024-12-09 16:50:02 [TestNG-test=Test-1] INFO  com.operative.utils.Log - Selected Published Option
+2024-12-09 16:50:02 [TestNG-test=Test-1] INFO  com.operative.utils.Log - Clicked on Apply Button
+2024-12-09 16:50:12 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 16:50:14 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: zap-consolidated-report.html
+2024-12-09 17:48:34 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 17:49:35 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 17:50:43 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 17:50:43 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: zap-consolidated-report.html
+2024-12-09 18:00:32 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:01:33 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:01:51 [main] INFO  com.operative.utils.Log - Clicked on Template
+2024-12-09 18:01:51 [main] INFO  com.operative.utils.Log - Clicked on Local Linear
+2024-12-09 18:01:55 [main] INFO  com.operative.utils.Log - Clicked on Product Status Dropdown
+2024-12-09 18:01:55 [main] INFO  com.operative.utils.Log - Selected Published Option
+2024-12-09 18:01:55 [main] INFO  com.operative.utils.Log - Clicked on Apply Button
+2024-12-09 18:02:03 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:02:04 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: zap-consolidated-report.html
+2024-12-09 18:04:32 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:05:33 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:06:41 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:06:42 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: zap-consolidated-report.html
+2024-12-09 18:19:07 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:20:07 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:24:01 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:25:02 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:25:43 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:25:43 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:25:44 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:25:45 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:34:02 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:35:03 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:35:24 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:35:24 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:35:25 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:35:26 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:46:08 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:47:08 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:47:32 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:47:33 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:47:33 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:47:33 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:52:58 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 18:53:59 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 18:54:56 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:54:57 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 18:54:59 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 18:54:59 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 19:09:59 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 19:11:00 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 19:12:08 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 19:12:09 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-reports\zap-consolidated-report.html
+2024-12-09 19:15:28 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 19:16:29 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 19:17:39 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 19:17:39 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
+2024-12-09 19:34:59 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 19:35:59 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 19:36:41 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 19:36:41 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
+2024-12-09 19:41:55 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 19:42:56 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 19:44:11 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 19:44:12 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
+2024-12-09 21:18:01 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 21:19:03 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 21:20:16 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 21:20:17 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
+2024-12-09 21:21:49 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 21:22:50 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 21:24:16 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 21:24:17 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
+2024-12-09 21:26:19 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 21:27:20 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 21:28:31 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 21:28:31 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
+2024-12-09 21:31:46 [main] INFO  com.operative.utils.Log - >>>>>> Launching the Application with the url...https://aos-dev.operativeone.com/products/
+2024-12-09 21:32:47 [main] INFO  com.operative.utils.Log - >>>>> Clicked on Login Button
+2024-12-09 21:33:02 [main] INFO  com.operative.utils.Log - Generating consolidated ZAP HTML Report...
+2024-12-09 21:33:02 [main] INFO  com.operative.utils.Log - Consolidated ZAP HTML Report generated: C:\project_perf\SecurityTesting\zap-consolidated-report.html
